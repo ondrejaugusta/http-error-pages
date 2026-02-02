@@ -12,4 +12,4 @@ This project is licensed under the GNU General Public License, more on that in t
 ## Support
 If you wanna thank me, just leave me an e-mail with a quick thanks. You can find it [on my website](https://oau.cz).
 
-## That's all! Happy coding.
+### That's all! Happy coding.
