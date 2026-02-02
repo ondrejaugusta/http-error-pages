@@ -1,0 +1,110 @@
+:root {
+    color-scheme: light dark;
+
+    --clr-background: #ddd;
+    --clr-text-main: #000;
+    --clr-muted: #555;
+    --clr-accent: #971515;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    min-height: 100dvh;
+
+    background-color: var(--clr-background);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0 clamp(1rem, 5vw, 3rem);
+}
+
+body main {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+
+    line-height: 1.2;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body main h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--clr-text-main);
+}
+
+body main .splitter {
+    width: 2px;
+    height: 7rem;
+
+    border-radius: 3px;
+
+    background-color: var(--clr-muted);
+}
+
+body main .text-container h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--clr-text-main);
+}
+
+body main .text-container p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--clr-muted);
+    margin-top: 0.25rem;
+}
+
+body main .text-container a,
+body main .text-container a:visited {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    color: var(--clr-muted);
+    text-decoration: none;
+
+    transition: color 150ms ease-in-out;
+}
+
+body main .text-container a:hover,
+body main .text-container a:focus {
+    color: var(--clr-accent);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1.5px;
+    text-decoration-skip-ink: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    body main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body main h1 {
+        width: 100%;
+        text-align: left;
+    }
+    
+    body main .splitter {
+        height: 1px;
+        width: 100%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --clr-background: #191919;
+        --clr-text-main: #dfdfdf;
+        --clr-muted: #bbb;
+        --clr-accent: hsl(0, 80%, 64%);
+    }
+}
