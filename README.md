@@ -15,5 +15,6 @@ If you wanna thank me, just leave me an e-mail with a quick thanks. You can find
 ## Screenshots
 <img width="1470" height="729" alt="dark-451" src="https://github.com/user-attachments/assets/b7f14d23-555d-43c8-90af-ba4c9a483eed" />
 <img width="1470" height="732" alt="light-504" src="https://github.com/user-attachments/assets/ae028b8a-e11c-48f0-9d7c-bc1af3150bc2" />
+<img width="498" height="729" alt="mobile-401" src="https://github.com/user-attachments/assets/221d6d47-e1e4-4a6e-9964-3fb6dd91beba" />
 
 ### That's all! Happy coding :)
